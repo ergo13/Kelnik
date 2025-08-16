@@ -1,0 +1,14 @@
+@import "../fonts/PT-Root-UI_Bold.css";
+@import "../fonts/PT-Root-UI_Light.css";
+@import "../fonts/PT-Root-UI_Medium.css";
+@import "../fonts/PT-Root-UI_Regular.css";
+@import "../fonts/PT-Root-UI_VF.css";
+
+* {
+  font-family: PTRootUI;
+  box-sizing: border-box;
+}
+
+.secondary {
+  opacity: 0.5;
+}
