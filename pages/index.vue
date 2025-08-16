@@ -13,6 +13,7 @@
         </div>
 
         <UiBaseButton
+          v-if="flatsStore.visibleCount < flatsStore.flats.length"
           class="show-more-button"
           bordered
           title="Показать еще"
